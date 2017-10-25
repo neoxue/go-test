@@ -16,6 +16,7 @@ func main() {
 	// exported logger. See Godoc.
 	//log.Out = os.Stdout
 
+
 	// You could set this to any `io.Writer` such as a file
 	logrus.SetFormatter(&logrus.JSONFormatter{})
 	 file, err := os.OpenFile("/data1/ms/log/logrus.log", os.O_CREATE|os.O_WRONLY, 0666)
@@ -25,7 +26,7 @@ func main() {
 	 } else {
 	  logrus.Fatal("Failed to log to file, using default stderr")
 	 }
-	 logrus.SetOutput(os.Stdout)
+	//logrus.SetOutput(os.Stdout)
 	logrus.SetFormatter(&logrus.JSONFormatter{})
 
 	log.WithFields(logrus.Fields{
@@ -38,6 +39,5 @@ func main() {
 
 func test() {
 	err := libs.NewErrors("test error ", "test", 101, "test")
-	logrus.Info(fmt.Sprintf("%+v", err))
-	logrus.Info("test");
+	logrus.WithFields(logrus.Fields{"afield":"avalue"}).Info(fmt.Sprintf("%+v", err))
 }
