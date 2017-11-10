@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"sync"
+)
+
 /*
 import (
 	"sync"
@@ -35,3 +40,14 @@ func main()  {
 
 }
 */
+type cancelCtx struct {
+	Mu       sync.Mutex          // protects following fields
+	Done     chan struct{}       // created lazily, closed by first cancel call
+	Children map[string]struct{} // set to nil by the first cancel call
+	Err      error               // set to non-nil by the first cancel call
+}
+
+func main() {
+	var cancel = cancelCtx{}
+	fmt.Println(cancel.Done == nil)
+}
