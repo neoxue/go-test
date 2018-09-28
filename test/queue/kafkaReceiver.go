@@ -1,15 +1,18 @@
-package queue
+package main
 
 import (
-	"os"
-	"github.com/Shopify/sarama"
+	"flag"
 	"log"
+	"os"
+	"os/signal"
 	"strings"
 	"time"
-	"os/signal"
-	"flag"
+
+	"fmt"
+
+	"github.com/Shopify/sarama"
 	"github.com/wvanbergen/kafka/consumergroup"
-	"github.com/wvanbergen/kazoo-go"
+	kazoo "github.com/wvanbergen/kazoo-go"
 )
 
 /*
@@ -20,18 +23,20 @@ sarama 是底层库，确切封装0.8以前及以后分别有2个库
 https://godoc.org/github.com/Shopify/sarama
 
 https://github.com/wvanbergen/kafka/blob/master/examples/consumergroup/main.go
- */
+*/
 
 const (
-	DefaultKafkaTopics   = "pub_day_report_import"
 	DefaultConsumerGroup = "test"
-	Defaultzk            = "zk:9001,zk:9002"
+	Defaultzk            = "10.83.0.44:2181"
+	DefaultKafkaTopics   = "test_topic"
+	//Defaultzk            = "10.82.0.44:2181"
+	//DefaultKafkaTopics   = "test_topic"
 )
 
 var (
-	consumerGroup  = flag.String("group", 	DefaultConsumerGroup,	"The name of the consumer group, used for coordination and load balancing")
-	kafkaTopicsCSV = flag.String("topics", 	DefaultKafkaTopics, 	"The comma-separated list of topics to consume")
-	zookeeper      = flag.String("zookeeper",	Defaultzk, 				"A comma-separated Zookeeper connection string (e.g. `zookeeper1.local:2181,zookeeper2.local:2181,zookeeper3.local:2181`)")
+	consumerGroup  = flag.String("group", DefaultConsumerGroup, "The name of the consumer group, used for coordination and load balancing")
+	kafkaTopicsCSV = flag.String("topics", DefaultKafkaTopics, "The comma-separated list of topics to consume")
+	zookeeper      = flag.String("zookeeper", Defaultzk, "A comma-separated Zookeeper connection string (e.g. `zookeeper1.local:2181,zookeeper2.local:2181,zookeeper3.local:2181`)")
 
 	zookeeperNodes []string
 )
@@ -49,7 +54,7 @@ func main() {
 	}
 
 	config := consumergroup.NewConfig()
-	config.Offsets.Initial = sarama.OffsetNewest
+	config.Offsets.Initial = sarama.OffsetOldest
 	config.Offsets.ProcessingTimeout = 10 * time.Second
 
 	zookeeperNodes, config.Zookeeper.Chroot = kazoo.ParseConnectionString(*zookeeper)
@@ -80,9 +85,6 @@ func main() {
 	offsets := make(map[string]map[int32]int64)
 
 	for message := range consumer.Messages() {
-		log.Println(string(message.Key))
-		log.Println(string(message.Value))
-		os.Exit(1)
 		if offsets[message.Topic] == nil {
 			offsets[message.Topic] = make(map[int32]int64)
 		}
@@ -91,10 +93,14 @@ func main() {
 		if offsets[message.Topic][message.Partition] != 0 && offsets[message.Topic][message.Partition] != message.Offset-1 {
 			log.Printf("Unexpected offset on %s:%d. Expected %d, found %d, diff %d.\n", message.Topic, message.Partition, offsets[message.Topic][message.Partition]+1, message.Offset, message.Offset-offsets[message.Topic][message.Partition]+1)
 		}
+		fmt.Print(" key:", string(message.Key))
+		fmt.Print(" partition:", message.Partition)
+		fmt.Print(" offset:", message.Offset)
+		fmt.Println()
 
 		// Simulate processing time
 		//time.Sleep(10 * time.Millisecond)
-		time.Sleep(1 * time.Second)
+		//time.Sleep(1 * time.Second)
 
 		offsets[message.Topic][message.Partition] = message.Offset
 		consumer.CommitUpto(message)

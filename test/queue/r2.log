@@ -1,0 +1,980 @@
+[Sarama] 2018/01/03 18:16:32 Initializing new client
+[Sarama] 2018/01/03 18:16:32 client/metadata fetching metadata for all topics from broker 10.83.0.44:9092
+[Sarama] 2018/01/03 18:16:32 Connected to broker at 10.83.0.44:9092 (unregistered)
+[Sarama] 2018/01/03 18:16:32 client/brokers registered new broker #0 at 10.83.0.44:9092
+[Sarama] 2018/01/03 18:16:32 client/brokers registered new broker #1 at 10.83.0.44:9093
+[Sarama] 2018/01/03 18:16:32 Successfully initialized new client
+[Sarama] 2018/01/03 18:16:32 [test/a546f10279d6] Consumer instance registered (Latitude:898571d8-fa72-4dce-a34d-a546f10279d6).
+[Sarama] 2018/01/03 18:16:32 [test/a546f10279d6] Currently registered consumers: 1
+[Sarama] 2018/01/03 18:16:32 [test/a546f10279d6] test_topic :: Started topic consumer
+[Sarama] 2018/01/03 18:16:37 [test/a546f10279d6] test_topic :: Claiming 100 of 100 partitions
+[Sarama] 2018/01/03 18:16:37 [test/a546f10279d6] test_topic/20 :: Partition consumer starting at offset 15.
+[Sarama] 2018/01/03 18:16:37 [test/a546f10279d6] test_topic/12 :: Partition consumer starting at offset 19.
+[Sarama] 2018/01/03 18:16:37 Connected to broker at 10.83.0.44:9092 (registered as #0)
+[Sarama] 2018/01/03 18:16:37 [test/a546f10279d6] test_topic/32 :: Partition consumer starting at offset 58.
+[Sarama] 2018/01/03 18:16:37 [test/a546f10279d6] test_topic/30 :: Partition consumer starting at offset 66.
+[Sarama] 2018/01/03 18:16:38 consumer/broker/0 added subscription to test_topic/20
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/0 :: Partition consumer starting at offset 37.
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/18 :: Partition consumer starting at offset 30.
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/94 :: Partition consumer starting at offset 13.
+[Sarama] 2018/01/03 18:16:38 consumer/broker/0 added subscription to test_topic/12
+[Sarama] 2018/01/03 18:16:38 consumer/broker/0 added subscription to test_topic/32
+[Sarama] 2018/01/03 18:16:38 consumer/broker/0 added subscription to test_topic/30
+ key:fyqinzs8225631 partition:20 offset:15
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/38 :: Partition consumer starting at offset 32.
+ key:fyqiwuw5867520 partition:20 offset:16
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/26 :: Partition consumer starting at offset 47.
+ key:fypxmsq8469873 partition:20 offset:17
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/35 :: Partition consumer starting at offset 36.
+ key:fypxmsq8469409 partition:20 offset:18
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/22 :: Partition consumer starting at offset 38.
+[Sarama] 2018/01/03 18:16:38 Connected to broker at 10.83.0.44:9093 (registered as #1)
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/2 :: Partition consumer starting at offset 38.
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/58 :: Partition consumer starting at offset 18.
+[Sarama] 2018/01/03 18:16:38 consumer/broker/1 added subscription to test_topic/35
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/34 :: Partition consumer starting at offset 46.
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/96 :: Partition consumer starting at offset 10.
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/54 :: Partition consumer starting at offset 27.
+ key:fyqinzs8227249 partition:35 offset:36
+[Sarama] 2018/01/03 18:16:38 consumer/broker/0 added subscription to test_topic/18
+[Sarama] 2018/01/03 18:16:38 consumer/broker/0 added subscription to test_topic/0
+[Sarama] 2018/01/03 18:16:38 consumer/broker/0 added subscription to test_topic/94
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/36 :: Partition consumer starting at offset 40.
+ key:fyqinzs8227422 partition:35 offset:37
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/60 :: Partition consumer starting at offset 40.
+ key:fyqiwuw5847644 partition:35 offset:38
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/62 :: Partition consumer starting at offset 19.
+ key:fyqefvx6217114 partition:35 offset:39
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/56 :: Partition consumer starting at offset 22.
+ key:fyqinzs8226026 partition:35 offset:40
+ key:fyqiwuw5840806 partition:35 offset:41
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/66 :: Partition consumer starting at offset 25.
+[Sarama] 2018/01/03 18:16:38 [test/a546f10279d6] test_topic/16 :: Partition consumer starting at offset 19.
+ key:fyqinzs8228491 partition:30 offset:66
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/46 :: Partition consumer starting at offset 50.
+ key:fyqinzs8228663 partition:30 offset:67
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/98 :: Partition consumer starting at offset 7.
+ key:fypwzxq4485633 partition:30 offset:68
+ key:fyqiwuw5867723 partition:20 offset:19
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/64 :: Partition consumer starting at offset 48.
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/42 :: Partition consumer starting at offset 46.
+ key:fypwzxq4490082 partition:20 offset:20
+[Sarama] 2018/01/03 18:16:39 consumer/broker/0 added subscription to test_topic/2
+[Sarama] 2018/01/03 18:16:39 consumer/broker/0 added subscription to test_topic/38
+[Sarama] 2018/01/03 18:16:39 consumer/broker/0 added subscription to test_topic/34
+[Sarama] 2018/01/03 18:16:39 consumer/broker/0 added subscription to test_topic/22
+ key:fyqiwuw5858190 partition:12 offset:19
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/1 :: Partition consumer starting at offset 17.
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/3 :: Partition consumer starting at offset 4.
+ key:fypwzxq4490034 partition:12 offset:20
+ key:fyqiwuw5867771 partition:12 offset:21
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/70 :: Partition consumer starting at offset 29.
+ key:fypwzxq4484868 partition:32 offset:58
+ key:fypwzxq4484821 partition:32 offset:59
+ key:fyqinzs8227493 partition:35 offset:42
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/24 :: Partition consumer starting at offset 47.
+ key:fyqcwaq7321605 partition:35 offset:43
+[Sarama] 2018/01/03 18:16:39 consumer/broker/1 added subscription to test_topic/1
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/4 :: Partition consumer starting at offset 30.
+ key:fyqcwaq7348560 partition:35 offset:44
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/8 :: Partition consumer starting at offset 20.
+ key:fypwzxq4488159 partition:35 offset:45
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/7 :: Partition consumer starting at offset 9.
+ key:fypwzxq4488114 partition:35 offset:46
+ key:fypwzxq4487430 partition:35 offset:47
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/40 :: Partition consumer starting at offset 55.
+ key:fyqinzs8228015 partition:35 offset:48
+ key:fyqinzs8228178 partition:35 offset:49
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/68 :: Partition consumer starting at offset 23.
+ key:fyqinzs8228200 partition:35 offset:50
+ key:fyqinzs8228204 partition:35 offset:51
+[Sarama] 2018/01/03 18:16:39 consumer/broker/1 added subscription to test_topic/3
+[Sarama] 2018/01/03 18:16:39 [test/a546f10279d6] test_topic/44 :: Partition consumer starting at offset 36.
+ key:fypwzxq4485511 partition:30 offset:69
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/72 :: Partition consumer starting at offset 20.
+ key:fyqinzs8228762 partition:30 offset:70
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/5 :: Partition consumer starting at offset 12.
+ key:fypwzxq4485442 partition:30 offset:71
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/52 :: Partition consumer starting at offset 23.
+ key:fyqiwuw5868179 partition:18 offset:30
+ key:fypxmsq8468409 partition:18 offset:31
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/50 :: Partition consumer starting at offset 30.
+ key:fyqinzs8226270 partition:18 offset:32
+[Sarama] 2018/01/03 18:16:40 consumer/broker/0 added subscription to test_topic/26
+[Sarama] 2018/01/03 18:16:40 consumer/broker/0 added subscription to test_topic/58
+[Sarama] 2018/01/03 18:16:40 consumer/broker/0 added subscription to test_topic/96
+[Sarama] 2018/01/03 18:16:40 consumer/broker/0 added subscription to test_topic/54
+[Sarama] 2018/01/03 18:16:40 consumer/broker/0 added subscription to test_topic/66
+[Sarama] 2018/01/03 18:16:40 consumer/broker/0 added subscription to test_topic/62
+[Sarama] 2018/01/03 18:16:40 consumer/broker/0 added subscription to test_topic/56
+[Sarama] 2018/01/03 18:16:40 consumer/broker/0 added subscription to test_topic/36
+[Sarama] 2018/01/03 18:16:40 consumer/broker/0 added subscription to test_topic/60
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/99 :: Partition consumer starting at offset 60.
+ key:fypxmsq8468323 partition:18 offset:33
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/78 :: Partition consumer starting at offset 17.
+ key:fyqiwuw5868421 partition:18 offset:34
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/92 :: Partition consumer starting at offset 14.
+ key:fyqinzs8226610 partition:18 offset:35
+[Sarama] 2018/01/03 18:16:40 consumer/broker/1 added subscription to test_topic/7
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/10 :: Partition consumer starting at offset 17.
+ key:fycnpiu8829006 partition:0 offset:37
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/84 :: Partition consumer starting at offset 20.
+ key:fypxmsq8468212 partition:0 offset:38
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/69 :: Partition consumer starting at offset 19.
+ key:fyqinct7545480 partition:0 offset:39
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/86 :: Partition consumer starting at offset 9.
+ key:fyqiwuw5868609 partition:0 offset:40
+ key:fyqinzs8226881 partition:0 offset:41
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/45 :: Partition consumer starting at offset 45.
+ key:fypwzxq4489764 partition:20 offset:21
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/48 :: Partition consumer starting at offset 28.
+ key:fyqiwuw5867876 partition:20 offset:22
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/39 :: Partition consumer starting at offset 31.
+ key:fyqiwuw5868257 partition:20 offset:23
+[Sarama] 2018/01/03 18:16:40 consumer/broker/1 added subscription to test_topic/99
+[Sarama] 2018/01/03 18:16:40 consumer/broker/1 added subscription to test_topic/5
+[Sarama] 2018/01/03 18:16:40 [test/a546f10279d6] test_topic/13 :: Partition consumer starting at offset 12.
+ key:fyqinzs8226488 partition:20 offset:24
+ key:fyqiwuw5867307 partition:94 offset:13
+ key:fyqinzs8208878 partition:94 offset:14
+ key:fypxmsq8470544 partition:94 offset:15
+ key:fyqinzs8225554 partition:94 offset:16
+ key:fypwzxq4490997 partition:94 offset:17
+ key:fyqinzs8225588 partition:94 offset:18
+ key:fyqinzs8210386 partition:32 offset:60
+ key:fyqinzs8229224 partition:32 offset:61
+ key:fyqcwaq7349670 partition:32 offset:62
+ key:fypwzxq4484493 partition:32 offset:63
+[Sarama] 2018/01/03 18:16:41 [test/a546f10279d6] test_topic/41 :: Partition consumer starting at offset 28.
+[Sarama] 2018/01/03 18:16:41 [test/a546f10279d6] test_topic/90 :: Partition consumer starting at offset 12.
+ key:fyqiwuw5871150 partition:32 offset:64
+ key:fypxmsq8466640 partition:35 offset:52
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/42
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/98
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/46
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/64
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/16
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/52
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/70
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/68
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/44
+[Sarama] 2018/01/03 18:16:41 consumer/broker/0 added subscription to test_topic/4
+[Sarama] 2018/01/03 18:16:41 [test/a546f10279d6] test_topic/88 :: Partition consumer starting at offset 11.
+ key:fyqinzs8228269 partition:35 offset:53
+[Sarama] 2018/01/03 18:16:41 [test/a546f10279d6] test_topic/76 :: Partition consumer starting at offset 11.
+ key:fypwzxq4486739 partition:35 offset:54
+[Sarama] 2018/01/03 18:16:41 [test/a546f10279d6] test_topic/43 :: Partition consumer starting at offset 25.
+ key:fyptkyk5529001 partition:35 offset:55
+ key:fyqinzs8228540 partition:35 offset:56
+ key:fyqefvx5632752 partition:35 offset:57
+ key:fyqiwuw5870467 partition:35 offset:58
+ key:fypxmsq8464964 partition:35 offset:59
+ key:fypwzxq4485536 partition:35 offset:60
+ key:fypxmsq8464769 partition:35 offset:61
+ key:fyqiwuw5870758 partition:35 offset:62
+[Sarama] 2018/01/03 18:16:41 [test/a546f10279d6] test_topic/23 :: Partition consumer starting at offset 34.
+ key:fyqiwuw5867465 partition:94 offset:19
+ key:fyqiwuw5867504 partition:94 offset:20
+[Sarama] 2018/01/03 18:16:41 [test/a546f10279d6] test_topic/6 :: Partition consumer starting at offset 23.
+ key:fypvuqe2711485 partition:94 offset:21
+ key:fypwzxq4490136 partition:94 offset:22
+[Sarama] 2018/01/03 18:16:41 consumer/broker/1 added subscription to test_topic/45
+[Sarama] 2018/01/03 18:16:41 consumer/broker/1 added subscription to test_topic/69
+[Sarama] 2018/01/03 18:16:41 consumer/broker/1 added subscription to test_topic/39
+[Sarama] 2018/01/03 18:16:41 [test/a546f10279d6] test_topic/79 :: Partition consumer starting at offset 8.
+ key:fyqcwaq7327453 partition:94 offset:23
+ key:fypxmsq8463837 partition:32 offset:65
+ key:fyqinct7567198 partition:32 offset:66
+[Sarama] 2018/01/03 18:16:41 [test/a546f10279d6] test_topic/74 :: Partition consumer starting at offset 14.
+ key:fypxmsq8469039 partition:38 offset:32
+[Sarama] 2018/01/03 18:16:42 [test/a546f10279d6] test_topic/71 :: Partition consumer starting at offset 8.
+ key:fyqiwuw5867955 partition:38 offset:33
+[Sarama] 2018/01/03 18:16:42 [test/a546f10279d6] test_topic/91 :: Partition consumer starting at offset 49.
+ key:fyqiwuw5867998 partition:38 offset:34
+ key:fyqinzs8226181 partition:38 offset:35
+ key:fypwzxq4485367 partition:30 offset:72
+[Sarama] 2018/01/03 18:16:42 [test/a546f10279d6] test_topic/49 :: Partition consumer starting at offset 25.
+ key:fyqiwuw5870821 partition:30 offset:73
+[Sarama] 2018/01/03 18:16:42 [test/a546f10279d6] test_topic/93 :: Partition consumer starting at offset 42.
+ key:fyqinzs8036823 partition:30 offset:74
+[Sarama] 2018/01/03 18:16:42 [test/a546f10279d6] test_topic/73 :: Partition consumer starting at offset 6.
+ key:fyqinzs8226193 partition:38 offset:36
+[Sarama] 2018/01/03 18:16:42 [test/a546f10279d6] test_topic/77 :: Partition consumer starting at offset 22.
+ key:fypnyqi2874355 partition:38 offset:37
+[Sarama] 2018/01/03 18:16:42 consumer/broker/0 added subscription to test_topic/8
+[Sarama] 2018/01/03 18:16:42 consumer/broker/0 added subscription to test_topic/24
+[Sarama] 2018/01/03 18:16:42 consumer/broker/0 added subscription to test_topic/40
+[Sarama] 2018/01/03 18:16:42 consumer/broker/0 added subscription to test_topic/72
+[Sarama] 2018/01/03 18:16:42 consumer/broker/0 added subscription to test_topic/50
+[Sarama] 2018/01/03 18:16:42 consumer/broker/0 added subscription to test_topic/78
+[Sarama] 2018/01/03 18:16:42 consumer/broker/0 added subscription to test_topic/92
+[Sarama] 2018/01/03 18:16:42 consumer/broker/1 added subscription to test_topic/23
+[Sarama] 2018/01/03 18:16:42 consumer/broker/1 added subscription to test_topic/13
+[Sarama] 2018/01/03 18:16:42 consumer/broker/1 added subscription to test_topic/41
+[Sarama] 2018/01/03 18:16:42 consumer/broker/1 added subscription to test_topic/43
+[Sarama] 2018/01/03 18:16:42 [test/a546f10279d6] test_topic/87 :: Partition consumer starting at offset 23.
+ key:fyqiwuw5859564 partition:30 offset:75
+[Sarama] 2018/01/03 18:16:43 consumer/broker/1 added subscription to test_topic/49
+[Sarama] 2018/01/03 18:16:43 consumer/broker/1 added subscription to test_topic/71
+[Sarama] 2018/01/03 18:16:43 consumer/broker/1 added subscription to test_topic/79
+[Sarama] 2018/01/03 18:16:43 consumer/broker/1 added subscription to test_topic/93
+[Sarama] 2018/01/03 18:16:43 consumer/broker/1 added subscription to test_topic/91
+[Sarama] 2018/01/03 18:16:43 consumer/broker/1 added subscription to test_topic/77
+[Sarama] 2018/01/03 18:16:43 consumer/broker/1 added subscription to test_topic/73
+[Sarama] 2018/01/03 18:16:45 consumer/broker/0 added subscription to test_topic/48
+[Sarama] 2018/01/03 18:16:45 consumer/broker/0 added subscription to test_topic/10
+[Sarama] 2018/01/03 18:16:45 consumer/broker/0 added subscription to test_topic/84
+[Sarama] 2018/01/03 18:16:45 consumer/broker/0 added subscription to test_topic/86
+[Sarama] 2018/01/03 18:16:45 consumer/broker/0 added subscription to test_topic/88
+[Sarama] 2018/01/03 18:16:45 consumer/broker/0 added subscription to test_topic/90
+[Sarama] 2018/01/03 18:16:46 consumer/broker/1 added subscription to test_topic/87
+[Sarama] 2018/01/03 18:16:46 [test/a546f10279d6] test_topic/28 :: Partition consumer starting at offset 41.
+ key:fyqiwuw5870909 partition:30 offset:76
+[Sarama] 2018/01/03 18:16:47 [test/a546f10279d6] test_topic/95 :: Partition consumer starting at offset 5.
+ key:fypxmsq8469204 partition:12 offset:22
+[Sarama] 2018/01/03 18:16:47 [test/a546f10279d6] test_topic/47 :: Partition consumer starting at offset 34.
+ key:fyqiwuw5867927 partition:12 offset:23
+[Sarama] 2018/01/03 18:16:47 [test/a546f10279d6] test_topic/19 :: Partition consumer starting at offset 32.
+ key:fyqinzs8226126 partition:12 offset:24
+ key:fyqiwuw5868024 partition:12 offset:25
+ key:fyqinzs8226155 partition:12 offset:26
+ key:fyqinzs8226694 partition:12 offset:27
+ key:fyqinzs8226763 partition:12 offset:28
+[Sarama] 2018/01/03 18:16:47 [test/a546f10279d6] test_topic/11 :: Partition consumer starting at offset 8.
+ key:fyqiwuw5868780 partition:0 offset:42
+[Sarama] 2018/01/03 18:16:47 consumer/broker/0 added subscription to test_topic/76
+[Sarama] 2018/01/03 18:16:47 consumer/broker/0 added subscription to test_topic/74
+[Sarama] 2018/01/03 18:16:47 consumer/broker/0 added subscription to test_topic/6
+[Sarama] 2018/01/03 18:16:48 [test/a546f10279d6] test_topic/75 :: Partition consumer starting at offset 10.
+ key:fypxmsq8468250 partition:20 offset:25
+ key:fypxmsq8468008 partition:22 offset:38
+ key:fypwzxq4488559 partition:22 offset:39
+ key:fypwzxq4488531 partition:22 offset:40
+ key:fyqiwuw5868464 partition:20 offset:26
+ key:fyqiwuw5869100 partition:22 offset:41
+ key:fypwzxq4488898 partition:20 offset:27
+ key:fypxmsq8468102 partition:0 offset:43
+ key:fyqiwuw5868939 partition:0 offset:44
+ key:fyqinzs8227187 partition:0 offset:45
+ key:fypxmsq8467928 partition:0 offset:46
+ key:fypwzxq4488835 partition:20 offset:28
+ key:fyqinzs8226841 partition:18 offset:36
+ key:fypwzxq4488785 partition:18 offset:37
+[Sarama] 2018/01/03 18:16:48 [test/a546f10279d6] test_topic/97 :: Partition consumer starting at offset 1.
+ key:fyqinzs8226930 partition:18 offset:38
+[Sarama] 2018/01/03 18:16:48 [test/a546f10279d6] test_topic/51 :: Partition consumer starting at offset 20.
+ key:fyqiwuw5868366 partition:2 offset:38
+[Sarama] 2018/01/03 18:16:48 [test/a546f10279d6] test_topic/59 :: Partition consumer starting at offset 8.
+ key:fyptfcn1951808 partition:2 offset:39
+[Sarama] 2018/01/03 18:16:48 [test/a546f10279d6] test_topic/55 :: Partition consumer starting at offset 23.
+ key:fyqiwuw5866581 partition:2 offset:40
+[Sarama] 2018/01/03 18:16:48 consumer/broker/1 added subscription to test_topic/95
+[Sarama] 2018/01/03 18:16:48 consumer/broker/1 added subscription to test_topic/47
+[Sarama] 2018/01/03 18:16:49 [test/a546f10279d6] test_topic/29 :: Partition consumer starting at offset 39.
+ key:fyqinzs8227325 partition:2 offset:41
+[Sarama] 2018/01/03 18:16:49 [test/a546f10279d6] test_topic/53 :: Partition consumer starting at offset 22.
+ key:fypxmsq8467789 partition:2 offset:42
+[Sarama] 2018/01/03 18:16:49 [test/a546f10279d6] test_topic/89 :: Partition consumer starting at offset 5.
+ key:fyqefvx6222687 partition:2 offset:43
+[Sarama] 2018/01/03 18:16:49 [test/a546f10279d6] test_topic/21 :: Partition consumer starting at offset 18.
+ key:fyqiwuw5869124 partition:34 offset:46
+[Sarama] 2018/01/03 18:16:49 [test/a546f10279d6] test_topic/63 :: Partition consumer starting at offset 13.
+ key:fyqinzs8227315 partition:34 offset:47
+ key:fyqiwuw5869289 partition:34 offset:48
+[Sarama] 2018/01/03 18:16:49 [test/a546f10279d6] test_topic/27 :: Partition consumer starting at offset 41.
+ key:fyqcwaq7315120 partition:34 offset:49
+ key:fypxmsq8464602 partition:35 offset:63
+[Sarama] 2018/01/03 18:16:49 [test/a546f10279d6] test_topic/61 :: Partition consumer starting at offset 10.
+[Sarama] 2018/01/03 18:16:50 [test/a546f10279d6] test_topic/33 :: Partition consumer starting at offset 40.
+ key:fyqinzs8228919 partition:35 offset:64
+[Sarama] 2018/01/03 18:16:50 [test/a546f10279d6] test_topic/9 :: Partition consumer starting at offset 10.
+ key:fypxmsq8464606 partition:35 offset:65
+ key:fyqinzs8225428 partition:3 offset:4
+[Sarama] 2018/01/03 18:16:50 [test/a546f10279d6] test_topic/82 :: Partition consumer starting at offset 26.
+ key:fyqcwaq7058346 partition:3 offset:5
+ key:fyqinzs8225760 partition:1 offset:17
+ key:fypxmsq8469679 partition:1 offset:18
+ key:fypwzxq4490039 partition:1 offset:19
+[Sarama] 2018/01/03 18:16:50 consumer/broker/1 added subscription to test_topic/11
+[Sarama] 2018/01/03 18:16:50 consumer/broker/1 added subscription to test_topic/75
+[Sarama] 2018/01/03 18:16:50 consumer/broker/1 added subscription to test_topic/97
+[Sarama] 2018/01/03 18:16:50 consumer/broker/1 added subscription to test_topic/19
+[Sarama] 2018/01/03 18:16:50 consumer/broker/1 added subscription to test_topic/55
+[Sarama] 2018/01/03 18:16:50 consumer/broker/1 added subscription to test_topic/51
+[Sarama] 2018/01/03 18:16:50 consumer/broker/1 added subscription to test_topic/59
+[Sarama] 2018/01/03 18:16:50 [test/a546f10279d6] test_topic/65 :: Partition consumer starting at offset 12.
+ key:fypwzxq4491330 partition:3 offset:6
+[Sarama] 2018/01/03 18:16:50 [test/a546f10279d6] test_topic/80 :: Partition consumer starting at offset 15.
+ key:fyqiwuw5867733 partition:1 offset:20
+ key:fyqiwuw5862006 partition:1 offset:21
+ key:fyqiwuw5857632 partition:3 offset:7
+ key:fyqinzs8220960 partition:35 offset:66
+[Sarama] 2018/01/03 18:16:50 [test/a546f10279d6] test_topic/31 :: Partition consumer starting at offset 47.
+ key:fyqinzs8218929 partition:35 offset:67
+[Sarama] 2018/01/03 18:16:51 [test/a546f10279d6] test_topic/15 :: Partition consumer starting at offset 6.
+ key:fyqiwuw5858628 partition:35 offset:68
+[Sarama] 2018/01/03 18:16:51 [test/a546f10279d6] test_topic/83 :: Partition consumer starting at offset 10.
+ key:fyqiwuw5858628 partition:35 offset:69
+ key:fyqiwuw5867399 partition:7 offset:9
+ key:fypwzxq4490938 partition:7 offset:10
+[Sarama] 2018/01/03 18:16:51 [test/a546f10279d6] test_topic/37 :: Partition consumer starting at offset 40.
+[Sarama] 2018/01/03 18:16:51 [test/a546f10279d6] test_topic/67 :: Partition consumer starting at offset 17.
+ key:fyqinzs8225599 partition:7 offset:11
+ key:fypxmsq8463792 partition:32 offset:67
+[Sarama] 2018/01/03 18:16:51 consumer/broker/0 added subscription to test_topic/28
+[Sarama] 2018/01/03 18:16:51 [test/a546f10279d6] test_topic/57 :: Partition consumer starting at offset 21.
+ key:fyqinzs8229303 partition:32 offset:68
+[Sarama] 2018/01/03 18:16:51 [test/a546f10279d6] test_topic/17 :: Partition consumer starting at offset 48.
+ key:fypwzxq4484927 partition:30 offset:77
+[Sarama] 2018/01/03 18:16:52 [test/a546f10279d6] test_topic/14 :: Partition consumer starting at offset 13.
+ key:fypxmsq8464209 partition:30 offset:78
+[Sarama] 2018/01/03 18:16:52 consumer/broker/1 added subscription to test_topic/89
+[Sarama] 2018/01/03 18:16:52 consumer/broker/1 added subscription to test_topic/29
+[Sarama] 2018/01/03 18:16:52 consumer/broker/1 added subscription to test_topic/53
+[Sarama] 2018/01/03 18:16:52 consumer/broker/1 added subscription to test_topic/63
+[Sarama] 2018/01/03 18:16:52 consumer/broker/1 added subscription to test_topic/21
+[Sarama] 2018/01/03 18:16:52 consumer/broker/1 added subscription to test_topic/9
+[Sarama] 2018/01/03 18:16:52 consumer/broker/1 added subscription to test_topic/33
+[Sarama] 2018/01/03 18:16:52 [test/a546f10279d6] test_topic/25 :: Partition consumer starting at offset 46.
+ key:fyqiwuw5870990 partition:30 offset:79
+[Sarama] 2018/01/03 18:16:52 [test/a546f10279d6] test_topic/81 :: Partition consumer starting at offset 13.
+ key:fyqinzs8229142 partition:30 offset:80
+ key:fyqiwuw5869096 partition:22 offset:42
+[Sarama] 2018/01/03 18:16:52 [test/a546f10279d6] test_topic/85 :: Partition consumer starting at offset 14.
+ key:fyqefvx6339806 partition:22 offset:43
+ key:fyqiwuw5869209 partition:22 offset:44
+ key:fyqefvx6180687 partition:22 offset:45
+ key:fyqinzs8227596 partition:22 offset:46
+ key:fyqinzs8226968 partition:18 offset:39
+ key:fyqiwuw5868953 partition:18 offset:40
+ key:fyqiwuw5869329 partition:2 offset:44
+ key:fyqinzs8187200 partition:2 offset:45
+ key:fypxmsq8467736 partition:2 offset:46
+ key:fyqinzs8227608 partition:2 offset:47
+ key:fyqiwuw5869466 partition:2 offset:48
+ key:fyqinzs8226635 partition:60 offset:40
+ key:fyqiwuw5869654 partition:34 offset:50
+ key:fypwzxq4687360 partition:2 offset:49
+ key:fyptfcn0461917 partition:60 offset:41
+ key:fyqinzs8227038 partition:60 offset:42
+ key:fyqiwuw5865761 partition:34 offset:51
+ key:fyqinzs8227868 partition:34 offset:52
+ key:fypwzxq4487653 partition:34 offset:53
+ key:fyptkyk5529528 partition:34 offset:54
+ key:fyqiwuw5868903 partition:60 offset:43
+ key:fyqinzs8227180 partition:60 offset:44
+ key:fyqiwuw5869069 partition:60 offset:45
+ key:fyqiwuw5869878 partition:34 offset:55
+ key:fypxmsq8467914 partition:0 offset:47
+ key:fyqiwuw5869144 partition:0 offset:48
+ key:fyqinzs8227009 partition:0 offset:49
+ key:fyqinzs8227623 partition:0 offset:50
+ key:fypxmsq8469271 partition:58 offset:18
+ key:fyqinzs8216500 partition:66 offset:25
+ key:fypwzxq4489929 partition:66 offset:26
+ key:fyqiwuw5867780 partition:66 offset:27
+ key:fyqiwuw5867799 partition:66 offset:28
+ key:fypwzxq4489854 partition:58 offset:19
+ key:fypwzxq4489701 partition:58 offset:20
+ key:fyqiwuw5867834 partition:66 offset:29
+ key:fyqinzs8226621 partition:54 offset:27
+ key:fyqiwuw5868647 partition:54 offset:28
+ key:fyptkyk5529806 partition:54 offset:29
+ key:fyqiwuw5867715 partition:94 offset:24
+ key:fyqchnr6826026 partition:94 offset:25
+ key:fyinvwu2582381 partition:94 offset:26
+ key:fyqiwuw5868741 partition:54 offset:30
+ key:fyqiwuw5868506 partition:20 offset:29
+ key:fyqinzs8226818 partition:20 offset:30
+ key:fyqiwuw5868766 partition:20 offset:31
+ key:fyqinzs8226289 partition:38 offset:38
+ key:fyqcsft9623036 partition:38 offset:39
+ key:fyqinzs8226943 partition:20 offset:32
+ key:fyqiwuw5868898 partition:36 offset:40
+ key:fyqinzs8227120 partition:36 offset:41
+ key:fypxmsq8467924 partition:36 offset:42
+ key:fyqinzs8047900 partition:38 offset:40
+ key:fyqinzs8217192 partition:96 offset:10
+ key:fyqiwuw5849946 partition:96 offset:11
+ key:fyqiwuw5858684 partition:96 offset:12
+ key:fyqinzs8225525 partition:96 offset:13
+ key:fyqiwuw5868330 partition:38 offset:41
+ key:fyqinzs8226977 partition:12 offset:29
+ key:fyqiwuw5868477 partition:12 offset:30
+ key:fypwzxq4488664 partition:12 offset:31
+ key:fyqiwuw5869167 partition:12 offset:32
+ key:fypxmsq8469185 partition:56 offset:22
+ key:fyqinzs8225912 partition:56 offset:23
+ key:fyqiwuw5869564 partition:26 offset:47
+ key:fyqiwuw5869468 partition:26 offset:48
+ key:fyqinzs8227724 partition:26 offset:49
+ key:fyqinzs8213677 partition:5 offset:12
+ key:fyqinzs8214070 partition:5 offset:13
+ key:fyqefvx5979757 partition:5 offset:14
+ key:fyqinzs8213069 partition:35 offset:70
+ key:fyqiwuw5870997 partition:35 offset:71
+ key:fyqinzs8209448 partition:35 offset:72
+ key:fyqinzs8225863 partition:1 offset:22
+ key:fyqinzs8225884 partition:1 offset:23
+ key:fyqiwuw5867515 partition:3 offset:8
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/79 :: Stopping partition consumer at offset 9
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/55 :: Stopping partition consumer at offset 23
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/73 :: Stopping partition consumer at offset 7
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/35 :: Stopping partition consumer at offset 75
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/20 :: Stopping partition consumer at offset 37
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/78 :: Stopping partition consumer at offset 18
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/99 :: Stopping partition consumer at offset 66
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/96 :: Stopping partition consumer at offset 19
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/70 :: Stopping partition consumer at offset 34
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/4 :: Stopping partition consumer at offset 33
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/62 :: Stopping partition consumer at offset 20
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/9 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/23 :: Stopping partition consumer at offset 35
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/68 :: Stopping partition consumer at offset 27
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/39 :: Stopping partition consumer at offset 32
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/80 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/55 :: Last processed offset: 22. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/26 :: Stopping partition consumer at offset 52
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/43 :: Stopping partition consumer at offset 26
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/88 :: Stopping partition consumer at offset 11
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/27 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/75 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/33 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/6 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/94 :: Stopping partition consumer at offset 33
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/96 :: Last processed offset: 13. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/92 :: Stopping partition consumer at offset 15
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/22 :: Stopping partition consumer at offset 52
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/13 :: Stopping partition consumer at offset 13
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/1 :: Stopping partition consumer at offset 26
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/16 :: Stopping partition consumer at offset 23
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/42 :: Stopping partition consumer at offset 55
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/48 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/45 :: Stopping partition consumer at offset 47
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/87 :: Stopping partition consumer at offset 24
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/69 :: Stopping partition consumer at offset 21
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/5 :: Stopping partition consumer at offset 17
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/51 :: Stopping partition consumer at offset 20
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/3 :: Stopping partition consumer at offset 13
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/19 :: Stopping partition consumer at offset 32
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/76 :: Stopping partition consumer at offset 11
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/77 :: Stopping partition consumer at offset 23
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/74 :: Stopping partition consumer at offset 14
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/49 :: Stopping partition consumer at offset 26
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/60 :: Stopping partition consumer at offset 54
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/71 :: Stopping partition consumer at offset 9
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/91 :: Stopping partition consumer at offset 50
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/79 :: Last processed offset: 7. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/11 :: Stopping partition consumer at offset 8
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/7 :: Stopping partition consumer at offset 17
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/12 :: Stopping partition consumer at offset 40
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/90 :: Stopping partition consumer at offset 13
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/93 :: Stopping partition consumer at offset 43
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/98 :: Stopping partition consumer at offset 11
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/95 :: Stopping partition consumer at offset 5
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/73 :: Last processed offset: 5. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/36 :: Stopping partition consumer at offset 47
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/2 :: Stopping partition consumer at offset 55
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/35 :: Last processed offset: 72. Waiting up to 10s for another 3 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/20 :: Last processed offset: 32. Waiting up to 10s for another 5 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/41 :: Stopping partition consumer at offset 29
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/78 :: Last processed offset: 16. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/46 :: Stopping partition consumer at offset 55
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/99 :: Last processed offset: 59. Waiting up to 10s for another 7 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/65 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/70 :: Last processed offset: 28. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/0 :: Stopping partition consumer at offset 54
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/4 :: Last processed offset: 29. Waiting up to 10s for another 4 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/62 :: Last processed offset: 18. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/58 :: Stopping partition consumer at offset 27
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/21 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/63 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/82 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/72 :: Stopping partition consumer at offset 21
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/47 :: Stopping partition consumer at offset 34
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/86 :: Stopping partition consumer at offset 9
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/18 :: Stopping partition consumer at offset 43
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/8 :: Stopping partition consumer at offset 21
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/84 :: Stopping partition consumer at offset 20
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/32 :: Stopping partition consumer at offset 76
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/10 :: Stopping partition consumer at offset 17
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/40 :: Stopping partition consumer at offset 56
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/24 :: Stopping partition consumer at offset 47
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/52 :: Stopping partition consumer at offset 25
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/15 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/28 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/53 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/61 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/29 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/89 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/59 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/50 :: Stopping partition consumer at offset 31
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/97 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/44 :: Stopping partition consumer at offset 39
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/54 :: Stopping partition consumer at offset 36
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/56 :: Stopping partition consumer at offset 29
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/64 :: Stopping partition consumer at offset 53
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/38 :: Stopping partition consumer at offset 46
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/66 :: Stopping partition consumer at offset 37
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/34 :: Stopping partition consumer at offset 61
+[Sarama] 2018/01/03 18:16:53 [test/a546f10279d6] test_topic/30 :: Stopping partition consumer at offset 86
+ key:fypxmsq8469768 partition:3 offset:9
+[Sarama] 2018/01/03 18:16:55 [test/a546f10279d6] test_topic/37 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:55 [test/a546f10279d6] test_topic/83 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:55 [test/a546f10279d6] test_topic/31 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:55 consumer/broker/1 added subscription to test_topic/65
+[Sarama] 2018/01/03 18:16:55 consumer/broker/1 added subscription to test_topic/27
+[Sarama] 2018/01/03 18:16:55 consumer/broker/1 added subscription to test_topic/61
+[Sarama] 2018/01/03 18:16:55 consumer/broker/1 added subscription to test_topic/15
+[Sarama] 2018/01/03 18:16:55 consumer/broker/1 added subscription to test_topic/37
+[Sarama] 2018/01/03 18:16:55 consumer/broker/1 added subscription to test_topic/83
+[Sarama] 2018/01/03 18:16:55 consumer/broker/1 added subscription to test_topic/31
+[Sarama] 2018/01/03 18:16:56 [test/a546f10279d6] test_topic/81 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:56 [test/a546f10279d6] test_topic/67 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:56 [test/a546f10279d6] test_topic/17 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:56 [test/a546f10279d6] test_topic/57 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:56 [test/a546f10279d6] test_topic/25 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:56 consumer/broker/0 added subscription to test_topic/80
+[Sarama] 2018/01/03 18:16:56 consumer/broker/0 added subscription to test_topic/82
+[Sarama] 2018/01/03 18:16:58 [test/a546f10279d6] test_topic/85 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:16:58 consumer/broker/1 added subscription to test_topic/81
+[Sarama] 2018/01/03 18:16:58 consumer/broker/1 added subscription to test_topic/67
+[Sarama] 2018/01/03 18:16:58 consumer/broker/1 added subscription to test_topic/57
+[Sarama] 2018/01/03 18:16:58 consumer/broker/1 added subscription to test_topic/25
+[Sarama] 2018/01/03 18:16:58 consumer/broker/1 added subscription to test_topic/17
+[Sarama] 2018/01/03 18:16:58 consumer/broker/1 added subscription to test_topic/85
+[Sarama] 2018/01/03 18:17:01 [test/a546f10279d6] test_topic/14 :: Stopping partition consumer at offset -1
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/23 :: Last processed offset: 33. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/92 :: Last processed offset: 13. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/39 :: Last processed offset: 30. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/22 :: Last processed offset: 46. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/26 :: Last processed offset: 49. Waiting up to 10s for another 3 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/13 :: Last processed offset: 11. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/94 :: Last processed offset: 26. Waiting up to 10s for another 7 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/88 :: Last processed offset: 10. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/1 :: Last processed offset: 23. Waiting up to 10s for another 3 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/68 :: Last processed offset: 22. Waiting up to 10s for another 5 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/43 :: Last processed offset: 24. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/18 :: Last processed offset: 40. Waiting up to 10s for another 3 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/84 :: Last processed offset: 19. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/16 :: Last processed offset: 18. Waiting up to 10s for another 5 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/8 :: Last processed offset: 19. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/42 :: Last processed offset: 45. Waiting up to 10s for another 10 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/32 :: Last processed offset: 68. Waiting up to 10s for another 8 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/45 :: Last processed offset: 44. Waiting up to 10s for another 3 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/40 :: Last processed offset: 54. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/10 :: Last processed offset: 16. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/69 :: Last processed offset: 18. Waiting up to 10s for another 3 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/52 :: Last processed offset: 22. Waiting up to 10s for another 3 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/87 :: Last processed offset: 22. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/19 :: Last processed offset: 31. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/24 :: Last processed offset: 46. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/5 :: Last processed offset: 14. Waiting up to 10s for another 3 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/51 :: Last processed offset: 19. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/3 :: Last processed offset: 8. Waiting up to 10s for another 5 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/76 :: Last processed offset: 10. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/77 :: Last processed offset: 21. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/74 :: Last processed offset: 13. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/49 :: Last processed offset: 24. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/60 :: Last processed offset: 45. Waiting up to 10s for another 9 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/71 :: Last processed offset: 7. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/91 :: Last processed offset: 48. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/11 :: Last processed offset: 7. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/7 :: Last processed offset: 11. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/12 :: Last processed offset: 32. Waiting up to 10s for another 8 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/90 :: Last processed offset: 11. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/0 :: Last processed offset: 50. Waiting up to 10s for another 4 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/93 :: Last processed offset: 41. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/58 :: Last processed offset: 20. Waiting up to 10s for another 7 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/72 :: Last processed offset: 19. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/47 :: Last processed offset: 33. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/86 :: Last processed offset: 8. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/98 :: Last processed offset: 6. Waiting up to 10s for another 5 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/34 :: Last processed offset: 55. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/36 :: Last processed offset: 42. Waiting up to 10s for another 5 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/95 :: Last processed offset: 4. Waiting up to 10s for another 1 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/54 :: Last processed offset: 30. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/2 :: Last processed offset: 49. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/50 :: Last processed offset: 29. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/64 :: Last processed offset: 47. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/41 :: Last processed offset: 27. Waiting up to 10s for another 2 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/38 :: Last processed offset: 41. Waiting up to 10s for another 5 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/44 :: Last processed offset: 35. Waiting up to 10s for another 4 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/46 :: Last processed offset: 49. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/66 :: Last processed offset: 29. Waiting up to 10s for another 8 messages to process...
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/56 :: Last processed offset: 23. Waiting up to 10s for another 6 messages to process...
+ key:fypwzxq4490408 partition:3 offset:10
+ key:fypxmsq8470064 partition:7 offset:12
+ key:fyqinzs8225661 partition:7 offset:13
+[Sarama] 2018/01/03 18:17:02 [test/a546f10279d6] test_topic/30 :: Last processed offset: 80. Waiting up to 10s for another 6 messages to process...
+[Sarama] 2018/01/03 18:17:03 consumer/broker/1 closed dead subscription to test_topic/9
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/55 :: TIMEOUT waiting for offset 23. Last committed offset: 22
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/96 :: TIMEOUT waiting for offset 19. Last committed offset: 13
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/35 :: TIMEOUT waiting for offset 75. Last committed offset: 72
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/73 :: TIMEOUT waiting for offset 7. Last committed offset: 5
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/79 :: TIMEOUT waiting for offset 9. Last committed offset: 7
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/20 :: TIMEOUT waiting for offset 37. Last committed offset: 32
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/78 :: TIMEOUT waiting for offset 18. Last committed offset: 16
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/70 :: TIMEOUT waiting for offset 34. Last committed offset: 28
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/99 :: TIMEOUT waiting for offset 66. Last committed offset: 59
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/62 :: TIMEOUT waiting for offset 20. Last committed offset: 18
+[Sarama] 2018/01/03 18:17:03 [test/a546f10279d6] test_topic/4 :: TIMEOUT waiting for offset 33. Last committed offset: 29
+[Sarama] 2018/01/03 18:17:04 consumer/broker/0 added subscription to test_topic/14
+[Sarama] 2018/01/03 18:17:04 consumer/broker/0 closed dead subscription to test_topic/20
+[Sarama] 2018/01/03 18:17:04 consumer/broker/0 closed dead subscription to test_topic/96
+[Sarama] 2018/01/03 18:17:04 consumer/broker/0 closed dead subscription to test_topic/4
+[Sarama] 2018/01/03 18:17:04 consumer/broker/0 closed dead subscription to test_topic/78
+[Sarama] 2018/01/03 18:17:04 consumer/broker/0 closed dead subscription to test_topic/70
+[Sarama] 2018/01/03 18:17:04 consumer/broker/0 closed dead subscription to test_topic/62
+ key:fypwzxq4490598 partition:7 offset:14
+ key:fyqinzs8228718 partition:99 offset:60
+ key:fypwzxq4485610 partition:99 offset:61
+ key:fyqinzs8228796 partition:99 offset:62
+ key:fypwzxq4485341 partition:99 offset:63
+ key:fyqiwuw5871044 partition:30 offset:81
+ key:fypxmsq8463950 partition:30 offset:82
+ key:fyqinzs8229213 partition:30 offset:83
+ key:fypwzxq4484024 partition:30 offset:84
+ key:fyqiwuw5867856 partition:66 offset:30
+ key:fyqiwuw5867863 partition:66 offset:31
+ key:fyqinzs8226349 partition:66 offset:32
+ key:fyqiwuw5868309 partition:66 offset:33
+ key:fyqiwuw5868449 partition:66 offset:34
+ key:fyqinzs8226705 partition:66 offset:35
+ key:fyqinzs8227723 partition:22 offset:47
+ key:fypwzxq4488324 partition:22 offset:48
+ key:fypxmsq8467132 partition:22 offset:49
+ key:fyqinzs8227922 partition:22 offset:50
+ key:fypwzxq4489795 partition:56 offset:24
+ key:fyqcwaq7058346 partition:56 offset:25
+ key:fyqiwuw5867826 partition:56 offset:26
+ key:fypxmsq8469014 partition:56 offset:27
+ key:fyqinzs8227222 partition:60 offset:46
+ key:fyqinzs8227252 partition:60 offset:47
+ key:fyqinzs8223793 partition:60 offset:48
+ key:fyqiwuw5868869 partition:20 offset:33
+ key:fyqiwuw5868932 partition:20 offset:34
+ key:fyqiwuw5868941 partition:20 offset:35
+ key:fypxmsq8469525 partition:70 offset:29
+ key:fyqefvx6279125 partition:70 offset:30
+ key:fypsvkp4682870 partition:60 offset:49
+ key:fyqinzs8227354 partition:60 offset:50
+ key:fypwzxq4488471 partition:60 offset:51
+ key:fyqinzs8227403 partition:60 offset:52
+ key:fyqcwaq7328841 partition:70 offset:31
+ key:fyqiwuw5867707 partition:70 offset:32
+ key:fypwzxq4488581 partition:18 offset:41
+ key:fyqiwuw5869920 partition:34 offset:56
+ key:fypwzxq4487351 partition:34 offset:57
+ key:fyqinzs8228112 partition:34 offset:58
+ key:fyqinzs8228138 partition:34 offset:59
+ key:fypxmsq8468101 partition:54 offset:31
+ key:fyqiwuw5868871 partition:54 offset:32
+ key:fypxmsq8469318 partition:68 offset:23
+ key:fypxmsq8469230 partition:68 offset:24
+ key:fyqiwuw5867784 partition:68 offset:25
+ key:fyqiwuw5869605 partition:64 offset:48
+ key:fyqcwaq6957790 partition:64 offset:49
+ key:fyqinzs8227777 partition:64 offset:50
+ key:fypxmsq8467573 partition:64 offset:51
+ key:fyqiwuw5869045 partition:54 offset:33
+ key:fyqiwuw5869176 partition:54 offset:34
+ key:fyqiwuw5871281 partition:32 offset:69
+ key:fyqinzs8229445 partition:32 offset:70
+ key:fyqiwuw5868898 partition:32 offset:71
+ key:fyqinzs8229535 partition:32 offset:72
+ key:fypyuve0590335 partition:32 offset:73
+ key:fyqcwaq7350197 partition:32 offset:74
+ key:fyqinzs8227782 partition:2 offset:50
+ key:fypxmsq8467616 partition:2 offset:51
+ key:fypwzxq4488643 partition:44 offset:36
+ key:fyqinzs8227324 partition:44 offset:37
+ key:fyqiwuw5867790 partition:94 offset:27
+ key:fyqiwuw5867801 partition:94 offset:28
+ key:fypxmsq8469079 partition:94 offset:29
+ key:fyqiwuw5867822 partition:94 offset:30
+ key:fypnqvn2413744 partition:2 offset:52
+ key:fyqiwuw5869885 partition:2 offset:53
+ key:fyqiwuw5867874 partition:0 offset:51
+ key:fyqinzs8225987 partition:94 offset:31
+ key:fyqinzs8227676 partition:0 offset:52
+ key:fypxmsq8470215 partition:96 offset:14
+ key:fyqcwaq7201843 partition:96 offset:15
+ key:fyqiwuw5867412 partition:96 offset:16
+ key:fypxmsq8469772 partition:96 offset:17
+ key:fyqinzs8226356 partition:38 offset:42
+ key:fyqiwuw5868613 partition:38 offset:43
+ key:fypwzxq4488741 partition:38 offset:44
+ key:fyqinzs8227727 partition:26 offset:50
+ key:fyqiwuw5836373 partition:42 offset:46
+ key:fypsvkp4686281 partition:42 offset:47
+ key:fypxmsq8467654 partition:42 offset:48
+ key:fypwzxq5198640 partition:42 offset:49
+ key:fyqiwuw5869685 partition:42 offset:50
+ key:fypxmsq9177521 partition:42 offset:51
+ key:fyqiwuw5869701 partition:42 offset:52
+ key:fypwzxq4491454 partition:98 offset:7
+ key:fyqiwuw5867338 partition:98 offset:8
+ key:fyqinzs8208132 partition:98 offset:9
+ key:fypxmsq8467502 partition:42 offset:53
+ key:fyqinzs8227208 partition:36 offset:43
+ key:fyqiwuw5869108 partition:36 offset:44
+ key:fyqiwuw5869125 partition:36 offset:45
+ key:fypxmsq8468868 partition:52 offset:23
+ key:fyqiwuw5868159 partition:52 offset:24
+ key:fyqinzs8226970 partition:46 offset:50
+ key:fyqiwuw5868705 partition:46 offset:51
+ key:fyqcwaq6957790 partition:46 offset:52
+ key:fyqinzs8227239 partition:46 offset:53
+ key:fyqiwuw5869178 partition:12 offset:33
+ key:fyqinzs8225758 partition:16 offset:19
+ key:fyptkyk5530390 partition:16 offset:20
+ key:fyqinzs8225806 partition:16 offset:21
+ key:fyqiwuw5869246 partition:12 offset:34
+ key:fyqinzs8227335 partition:12 offset:35
+ key:fyqinzs8227484 partition:12 offset:36
+ key:fyqiwuw5869360 partition:12 offset:37
+ key:fyqinzs8227517 partition:12 offset:38
+ key:fypwzxq4489696 partition:58 offset:21
+ key:fypxmsq8469006 partition:58 offset:22
+ key:fyqiwuw5867866 partition:58 offset:23
+ key:fyqinzs8226003 partition:58 offset:24
+ key:fyqiwuw5867959 partition:58 offset:25
+ key:fypxmsq8468930 partition:4 offset:30
+ key:fypxmsq8468880 partition:4 offset:31
+ key:fyqinzs8225799 partition:3 offset:11
+ key:fypwzxq4490968 partition:5 offset:15
+ key:fypxmsq8469269 partition:69 offset:19
+ key:fypxmsq8467981 partition:45 offset:45
+ key:fyqcwaq7349670 partition:35 offset:73
+ key:fyqinct7539810 partition:1 offset:24
+ key:fyqiwuw5867583 partition:7 offset:15
+ key:fypwzxq4485337 partition:99 offset:64
+ key:fyqinzs8226186 partition:4 offset:32
+ key:fyqinzs8226886 partition:23 offset:34
+ key:fypwzxq4489009 partition:39 offset:31
+ key:fyqinzs8226243 partition:43 offset:25
+ key:fypwzxq4491160 partition:13 offset:12
+ key:fyqinzs8217271 partition:41 offset:28
+ key:fyqinzs8227085 partition:20 offset:36
+ key:fyqinzs8227602 partition:12 offset:39
+ key:fyqinzs8225951 partition:68 offset:26
+ key:fyqinzs8227286 partition:46 offset:54
+ key:fyqefvx2185485 partition:30 offset:85
+ key:fyqiwuw5869879 partition:22 offset:51
+ key:fyqinzs8226654 partition:66 offset:36
+ key:fyqiwuw5868856 partition:38 offset:45
+ key:fypxmsq8469223 partition:70 offset:33
+ key:fypwzxq4490404 partition:8 offset:20
+ key:fyqinzs8226037 partition:50 offset:30
+ key:fypwzxq4488120 partition:40 offset:55
+ key:fyqinzs8227234 partition:18 offset:42
+ key:fyqcwaq7315120 partition:60 offset:53
+ key:fyqinzs8227758 partition:26 offset:51
+ key:fyqinzs8228260 partition:34 offset:60
+ key:fypxmsq8467104 partition:64 offset:52
+ key:fyqiwuw5869207 partition:54 offset:35
+ key:fypwzxq4489593 partition:56 offset:28
+ key:fyqiwuw5869182 partition:44 offset:38
+ key:fyqinzs8229700 partition:32 offset:75
+ key:fyqiwuw5867389 partition:92 offset:14
+ key:fypwzxq4489865 partition:72 offset:20
+ key:fyqinzs8227734 partition:0 offset:53
+ key:fypxmsq8468916 partition:94 offset:32
+ key:fypwzxq4490369 partition:96 offset:18
+ key:fyqiwuw5867270 partition:78 offset:17
+ key:fypwzxq4491245 partition:98 offset:10
+ key:fypxmsq8469960 partition:62 offset:19
+ key:fyqiwuw5870089 partition:2 offset:54
+ key:fyqiwuw5867675 partition:16 offset:22
+ key:fyqiwuw5867993 partition:58 offset:26
+ key:fyqinzs8227329 partition:36 offset:46
+ key:fypxmsq8467474 partition:42 offset:54
+ key:fypxmsq8469433 partition:49 offset:25
+ key:fyqiwuw5869909 partition:93 offset:42
+ key:fyqcsft7979549 partition:73 offset:6
+ key:fyqiwuw5862638 partition:91 offset:49
+ key:fypwzxq4490249 partition:77 offset:22
+ key:fyqinzs8225379 partition:71 offset:8
+ key:fyqefvx1647301 partition:3 offset:12
+ key:fypwzxq4490981 partition:5 offset:16
+ key:fyqiwuw5867751 partition:69 offset:20
+ key:fyqinzs8225826 partition:87 offset:23
+ key:fypvuqe2717816 partition:79 offset:8
+ key:fyqinzs8227223 partition:45 offset:46
+ key:fyqiwuw5870801 partition:99 offset:65
+ key:fyqinct7568301 partition:35 offset:74
+ key:fyqinzs8225949 partition:1 offset:25
+ key:fyqefvx1647301 partition:7 offset:16
+ key:fyqinzs8226150 partition:4 offset:33
+ key:fypxmsq8470533 partition:90 offset:12
+ key:fyqiwuw5868095 partition:52 offset:25
+ key:fyqcwaq7342647 partition:88 offset:11
+ key:fyqiwuw5869554 partition:24 offset:47
+ key:fypwzxq4490780 partition:10 offset:17
+ key:fypxmsq8470435 partition:84 offset:20
+ key:fypwzxq4491357 partition:86 offset:9
+ key:fypwzxq4489020 partition:39 offset:32
+ key:fyqiwuw5868600 partition:23 offset:35
+ key:fyqinzs8226309 partition:43 offset:26
+ key:fypwzxq4489869 partition:70 offset:34
+ key:fyqinzs8227367 partition:46 offset:55
+ key:fypxmsq8469340 partition:41 offset:29
+ key:fyqinzs8227175 partition:20 offset:37
+ key:fypxmsq8467606 partition:12 offset:40
+ key:fyqiwuw5870001 partition:22 offset:52
+ key:fyqiwuw5752885 partition:30 offset:86
+ key:fyqiwuw5868650 partition:66 offset:37
+ key:fyqinzs8227098 partition:38 offset:46
+ key:fyqinzs8225536 partition:13 offset:13
+ key:fyqinzs8225990 partition:68 offset:27
+ key:fyqefvx6279125 partition:8 offset:21
+ key:fyqinzs8225614 partition:50 offset:31
+ key:fyqinzs8227838 partition:40 offset:56
+ key:fyqiwuw5869113 partition:18 offset:43
+ key:fypwzxq4171013 partition:60 offset:54
+ key:fyqinzs8227751 partition:26 offset:52
+ key:fyqcwaq7348858 partition:34 offset:61
+ key:fyqinzs8227948 partition:64 offset:53
+ key:fyqiwuw5867890 partition:56 offset:29
+ key:fyqinzs8225614 partition:54 offset:36
+ key:fyqinzs8227437 partition:44 offset:39
+ key:fypwzxq4483107 partition:32 offset:76
+ key:fyqiwuw5867403 partition:92 offset:15
+ key:fyqinzs8225911 partition:72 offset:21
+ key:fypwzxq4488325 partition:0 offset:54
+ key:fyqiwuw5868126 partition:94 offset:33
+ key:fyqiwuw5867745 partition:96 offset:19
+ key:fypxmsq8470808 partition:78 offset:18
+ key:fypxmsq8470459 partition:98 offset:11
+ key:fyqinzs8225304 partition:95 offset:5
+ key:fyqiwuw5868167 partition:47 offset:34
+ key:fypwzxq4490530 partition:62 offset:20
+ key:fyqinzs8228350 partition:2 offset:55
+ key:fypxmsq8469413 partition:16 offset:23
+ key:fyqiwuw5869234 partition:36 offset:47
+ key:fyqinzs8226116 partition:58 offset:27
+ key:fyqinzs8227850 partition:42 offset:55
+ key:fypxmsq8469388 partition:49 offset:26
+ key:fyqinzs8228251 partition:93 offset:43
+ key:fypwzxq4491865 partition:73 offset:7
+ key:fypxmsq8466773 partition:91 offset:50
+ key:fyqiwuw5835656 partition:71 offset:9
+ key:fyqiwuw5867667 partition:77 offset:23
+ key:fyqiwuw5855291 partition:74 offset:14
+ key:fypxmsq8470118 partition:76 offset:11
+ key:fypwzxq4489875 partition:3 offset:13
+ key:fypwzxq4490646 partition:5 offset:17
+ key:fyqinzs8225922 partition:69 offset:21
+ key:fypwzxq4491772 partition:11 offset:8
+ key:fyqinzs8217239 partition:55 offset:23
+ key:fypwzxq4490711 partition:51 offset:20
+ key:fyqinzs8226873 partition:19 offset:32
+ key:fyqinzs8217330 partition:87 offset:24
+ key:fypxmsq8467864 partition:45 offset:47
+ key:fyqiwuw5867201 partition:79 offset:9
+ key:fyqiwuw5870826 partition:99 offset:66
+ key:fyqinzs8226026 partition:1 offset:26
+ key:fyqinzs8229474 partition:35 offset:75
+ key:fypxmsq8469719 partition:7 offset:17
+ key:fypxmsq8470465 partition:90 offset:13
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/55
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/81
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/21
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/27
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/17
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/99
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/53
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/63
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/75
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/33
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/31
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/67
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/25
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/79
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/57
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/61
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/35
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/65
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/83
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/73
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/85
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/89
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/15
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/37
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/97
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/59
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/29
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/91
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/77
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/13
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/41
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/39
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/71
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/47
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/19
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/5
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/93
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/95
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/69
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/49
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/7
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/45
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/23
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/43
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/1
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/3
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/51
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/11
+[Sarama] 2018/01/03 18:17:06 consumer/broker/1 closed dead subscription to test_topic/87
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/90
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/6
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/82
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/0
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/42
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/16
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/58
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/36
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/52
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/88
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/12
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/30
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/74
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/76
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/80
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/68
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/8
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/50
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/56
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/60
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/64
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/24
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/32
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/94
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/38
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/26
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/92
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/48
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/10
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/84
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/2
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/98
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/46
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/86
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/14
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/22
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/66
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/40
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/72
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/28
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/18
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/34
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/54
+[Sarama] 2018/01/03 18:17:07 consumer/broker/0 closed dead subscription to test_topic/44
+[Sarama] 2018/01/03 18:17:07 [test/a546f10279d6] test_topic :: Stopped topic consumer
+[Sarama] 2018/01/03 18:17:07 [test/a546f10279d6] FAILED closing the offset manager: Not all offsets were committed before shutdown was completed!
+[Sarama] 2018/01/03 18:17:07 [test/a546f10279d6] Deregistered consumer instance Latitude:898571d8-fa72-4dce-a34d-a546f10279d6.
+[Sarama] 2018/01/03 18:17:07 Closing Client
+[Sarama] 2018/01/03 18:17:07 Closed connection to broker 10.83.0.44:9092
+[Sarama] 2018/01/03 18:17:07 Closed connection to broker 10.83.0.44:9092
+[Sarama] 2018/01/03 18:17:07 Closed connection to broker 10.83.0.44:9093

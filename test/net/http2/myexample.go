@@ -1,6 +1,7 @@
 package main
 
 import (
+	"crypto/tls"
 	"flag"
 	"log"
 	"net"
@@ -11,6 +12,9 @@ import (
 	"sync"
 	"time"
 
+	"os"
+
+	"golang.org/x/crypto/acme/autocert"
 	"golang.org/x/net/http2"
 )
 
@@ -118,4 +122,42 @@ func main() {
 		*hostHTTPS = "http2.golang.org"
 		log.Fatal(serveProd())
 	}
+}
+
+func serveProd() error {
+	errc := make(chan error, 2)
+	go func() { errc <- http.ListenAndServe(":80", nil) }()
+	go func() { errc <- serveProdTLS() }()
+	return <-errc
+}
+
+func serveProdTLS() error {
+	const cacheDir = "/var/cache/autocert"
+	if err := os.MkdirAll(cacheDir, 0700); err != nil {
+		return err
+	}
+	m := autocert.Manager{
+		Cache:      autocert.DirCache(cacheDir),
+		Prompt:     autocert.AcceptTOS,
+		HostPolicy: autocert.HostWhitelist("http2.golang.org"),
+	}
+	srv := &http.Server{
+		TLSConfig: &tls.Config{
+			GetCertificate: m.GetCertificate,
+		},
+	}
+	http2.ConfigureServer(srv, &http2.Server{
+		NewWriteScheduler: func() http2.WriteScheduler {
+			return http2.NewPriorityWriteScheduler(nil)
+		},
+	})
+	ln, err := net.Listen("tcp", ":443")
+	if err != nil {
+		return err
+	}
+	return srv.Serve(tls.NewListener(tcpKeepAliveListener{ln.(*net.TCPListener)}, srv.TLSConfig))
+}
+
+type tcpKeepAliveListener struct {
+	*net.TCPListener
 }
