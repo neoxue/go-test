@@ -1,17 +1,18 @@
 package main
 
 import (
-	"time"
-	"log"
-	"math/rand"
 	"context"
 	"fmt"
+	"log"
+	"math/rand"
+	"time"
 )
 
-func test(is_first *bool, prev_map *map[string]string) {
+func test2(is_first *bool, prev_map *map[string]string) {
 	rand.Seed(int64(time.Now().Nanosecond()))
 	ch := make(chan bool)
 	ctx, _ := context.WithTimeout(context.Background(), 50*time.Millisecond)
+
 	//defer cancel()
 
 	go func() {
@@ -46,8 +47,9 @@ func main() {
 	is_first := true
 	prev_map := make(map[string]string)
 	for {
-		test(&is_first, &prev_map)
+		test2(&is_first, &prev_map)
 		time.Sleep(time.Second)
 		log.Println(prev_map, is_first)
+		fmt.Println("\n\n\n")
 	}
 }

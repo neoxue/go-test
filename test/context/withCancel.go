@@ -8,7 +8,11 @@ import (
 
 func main() {
 	test()
-	time.Sleep(100 * time.Second)
+	for true {
+
+		time.Sleep(1 * time.Second)
+		fmt.Println("hihi")
+	}
 
 }
 func test() {
@@ -29,9 +33,14 @@ func test() {
 				case dst <- n:
 					fmt.Println("b1")
 					n++
+				default:
+					time.Sleep(1 * time.Second)
+					fmt.Println("aa")
+					n++
 				}
 			}
 		}()
+		//time.Sleep(10 * time.Second)
 		return dst
 	}
 
